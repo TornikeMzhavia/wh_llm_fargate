@@ -1,0 +1,5 @@
+{
+    "vpc_name": "MyVPC",
+    "ecs_cluster_name": "MyECSCluster",
+    "alb_service_id": "FastAPIService"
+}
