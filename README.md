@@ -41,7 +41,7 @@ AWS service names can be set by editing *cdk/config.json* file
 ```bash
 $ curl http://XXXX.eu-west-1.elb.amazonaws.com
 
-{"message":"FastAPI running in a Docker container"}
+{"message":"FastAPI LLM mockup API running in a Docker container"}
 ```
 
 ## Supported requests
