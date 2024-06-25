@@ -21,7 +21,7 @@ $ docker-compose up
 ```bash
 $ curl http://127.0.0.1:5555
 
-{"message":"FastAPI running in a Docker container"}
+{"message":"FastAPI LLM mockup API running in a Docker container"}
 ```
 
 ## Deploy
