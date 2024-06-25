@@ -61,6 +61,7 @@ API uses SQLAlchemy and sqlite back as a sample db.
 Can be replaced by AWS RDS going forward.
 
 ### Next steps
-1. Propper authentication with hashing on top of the api token
-2. Integrate with RDS with UUIDs rather then local sqlite
-3. Add input question validation
+1. Propper authentication with hashing, on top of the api token
+2. Integrate with RDS with UUIDs rather then local sqlite with incremental id s
+3. Add input validation
+4. Improve exception handling and automated testing
