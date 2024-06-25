@@ -41,3 +41,24 @@ $ curl http://XXXX.eu-west-1.elb.amazonaws.com
 
 {"message":"FastAPI running in a Docker container"}
 ```
+
+## Supported requests
+API supports 2 types of requests
+```
+/question [POST]
+    user_id: int
+    question: str
+
+/rate [POST]
+    question_id: int
+    rating: int
+```
+
+### Database
+API uses SQLAlchemy and sqlite back as a sample db.
+Can be replaced by AWS RDS going forward.
+
+### Next steps
+1. Propper authentication with hashing on top of the api token
+2. Integrate with RDS with UUIDs rather then local sqlite
+3. Add input question validation
