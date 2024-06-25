@@ -35,7 +35,7 @@ $ cd cdk
 $ cdk deploy
 ```
 
-AWS service names can be set by editing *cdk/config.json* fi 
+AWS service names can be set by editing *cdk/config.json* file
 
 ### How to call the API
 ```bash
